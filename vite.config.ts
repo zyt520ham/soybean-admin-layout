@@ -40,7 +40,7 @@ export default defineConfig(configEnv => {
       : {
           lib: {
             entry: fileURLToPath(new URL('./src/index.ts', import.meta.url)),
-            name: 'SoybeanAdminLayout',
+            name: 'vc-layout',
             fileName: 'index'
           },
           rollupOptions: {
